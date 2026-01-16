@@ -10,7 +10,7 @@ class MessageController extends Controller
 {
     public function create()
     {
-        return view('messages.contact');
+        return view('contact');
     }
 
     public function store(Request $request)
